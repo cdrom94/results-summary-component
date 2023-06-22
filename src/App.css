@@ -140,6 +140,8 @@ h1 {
 }
 
 .button-continue {
+	all: unset;
+	box-sizing: border-box;
 	color: var(--white);
 	background: var(--dark-gray-blue);
 	text-align: center;
@@ -148,6 +150,9 @@ h1 {
 	padding: 15px 20px;
 	margin: 41px 0 46px;
 	font-weight: 700;
+	cursor: pointer;
+	display: block;
+	width: 100%;
 }
 
 .button-continue:hover {

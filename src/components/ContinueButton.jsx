@@ -1,5 +1,5 @@
 const ContinueButton = () => {
-	return <div className='button button-continue'>Continue</div>;
+	return <button className='button button-continue'>Continue</button>;
 };
 
 export default ContinueButton;
