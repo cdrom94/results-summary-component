@@ -154,6 +154,9 @@ h1 {
 	display: block;
 	width: 100%;
 }
+.button-continue:focus {
+	outline: orange 5px auto;
+}
 
 .button-continue:hover {
 	background: linear-gradient(#7755ff 0%, #2f2ce9 100%);
